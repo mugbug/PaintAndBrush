@@ -1,7 +1,7 @@
 infix operator ..: AdditionPrecedence
 infix operator <-: MultiplicationPrecedence
 
-struct Predicate<Element> {
+public struct Predicate<Element> {
     let code: (Element) -> Element
 
     func runCode(for element: Element) -> Element {
@@ -9,7 +9,7 @@ struct Predicate<Element> {
     }
 }
 
-func <- <Element, T>(_ attribute: WritableKeyPath<Element, T>,
+public func <- <Element, T>(_ attribute: WritableKeyPath<Element, T>,
                      _ constant: T) -> Predicate<Element> {
     return Predicate(code: { value in
         var copy = value
@@ -18,9 +18,9 @@ func <- <Element, T>(_ attribute: WritableKeyPath<Element, T>,
     })
 }
 
-protocol Builder {}
+public protocol Builder {}
 
-extension Builder {
+public extension Builder {
     @discardableResult
     static func .. (_ element: Self,
                     _ predicate: Predicate<Self>) -> Self {

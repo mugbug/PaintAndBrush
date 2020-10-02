@@ -1,7 +1,7 @@
 import XCTest
 
-import ViewCodeHelperTests
+import PaintAndBrushTests
 
 var tests = [XCTestCaseEntry]()
-tests += ViewCodeHelperTests.allTests()
+tests += PaintAndBrushTests.allTests()
 XCTMain(tests)

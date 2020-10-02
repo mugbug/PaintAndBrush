@@ -1,7 +1,7 @@
 import XCTest
-@testable import ViewCodeHelper
+@testable import PaintAndBrush
 
-final class ViewCodeHelperTests: XCTestCase {
+final class PaintAndBrushTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct

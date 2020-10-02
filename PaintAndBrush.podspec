@@ -15,11 +15,11 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "view-code-helper"
+  spec.name         = "PaintAndBrush"
   spec.version      = "0.1.4"
   spec.summary      = "A package with some simple -- but useful -- helpers for building UIKit views in code."
 
-  spec.homepage     = "https://github.com/mugbug/view-code-helper"
+  spec.homepage     = "https://github.com/mugbug/PaintAndBrush"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -60,7 +60,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/mugbug/view-code-helper.git", :tag => "v#{spec.version}" }
+  spec.source       = { :git => "https://github.com/mugbug/PaintAndBrush.git", :tag => "v#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ViewCodeHelper",
+    name: "PaintAndBrush",
     platforms: [
         .iOS(.v11)
     ],
@@ -14,8 +14,8 @@ let package = Package(
          and make them visible to other packages.
          */
         .library(
-            name: "ViewCodeHelper",
-            targets: ["ViewCodeHelper"]),
+            name: "PaintAndBrush",
+            targets: ["PaintAndBrush"]),
     ],
     dependencies: [
         /*
@@ -31,11 +31,11 @@ let package = Package(
             and on products in packages which this package depends on.
          */
         .target(
-            name: "ViewCodeHelper",
+            name: "PaintAndBrush",
             dependencies: []
         ),
         .testTarget(
-            name: "ViewCodeHelperTests",
-            dependencies: ["ViewCodeHelper"]),
+            name: "PaintAndBrushTests",
+            dependencies: ["PaintAndBrush"]),
     ]
 )

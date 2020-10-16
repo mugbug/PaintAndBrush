@@ -26,7 +26,7 @@ To integrate PaintAndBrush into your project using SPM open your project using X
 
 To use PaintAndBrush into your project, import PaintAndBrush with:
 ```swift
-import ViewCodeHelper
+import PaintAndBrush
 ```
 
 Or Add the following to your Package.swift file:
@@ -34,7 +34,7 @@ Or Add the following to your Package.swift file:
 dependencies: [
     .package(
         url: "https://github.com/mugbug/PaintAndBrush.git", 
-        from: "0.1.4"
+        from: "0.2.0"
     ),
 ]
 ```

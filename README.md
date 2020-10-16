@@ -34,7 +34,7 @@ Or Add the following to your Package.swift file:
 dependencies: [
     .package(
         url: "https://github.com/mugbug/PaintAndBrush.git", 
-        from: "0.0.1"
+        from: "0.1.4"
     ),
 ]
 ```

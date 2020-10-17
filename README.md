@@ -9,17 +9,17 @@ Cocoa Pods is a dependency manager for Objective-C and Swift Cocoa projects.
 
 To integrate and use PaintAndBrush into your Xcode project, add the pod to your Podfile:
 ```ruby
-pod 'PaintAndBrush', '0.1.4'
+pod 'PaintAndBrush', '0.2.0'
 ```
 And then run:
-```ruby
+```bash
 pod install
 ```
 After that, to use PaintAndBrush into your project, import PaintAndBrush with:
 ```swift
 import PaintAndBrush
 ```
-### Swift Package Manager(Xcode 11+)
+### Swift Package Manager (Xcode 11+)
 The Swift Package Manager is a tool for automating and managing the distribution of 3rd-party Swift code. Starting on Xcode 11, SPM is natively integrated with Xcode.
 
 To integrate PaintAndBrush into your project using SPM open your project using Xcode 11+. Then click on `File` -> `Swift Packages` -> `Add Package Dependency` and enter the PaintAndBrush repository's URL (https://github.com/mugbug/PaintAndBrush).
@@ -30,7 +30,7 @@ import PaintAndBrush
 ```
 
 Or Add the following to your Package.swift file:
-```
+```swift
 dependencies: [
     .package(
         url: "https://github.com/mugbug/PaintAndBrush.git", 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name = "PaintAndBrush"
-  spec.version = "0.1.4"
+  spec.version = "0.2.0"
   spec.license = "MIT"
   spec.summary = "A package with some simple -- but useful -- helpers for building UIKit views in code."
   spec.homepage = "https://github.com/mugbug/PaintAndBrush"
